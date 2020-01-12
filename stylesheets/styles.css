@@ -63,7 +63,7 @@ a:visited {
     visibility: visible;
 }
 
-.icon .tooltip-text::after {
+a span.tooltip-text::after, span.tooltip-text::after {
     content: " ";
     position: absolute;
     bottom: 100%;  /* At the top of the tooltip */
