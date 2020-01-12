@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #d7eaff;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+}
+
+header ul {
+    text-align: center;
+    font-size: 0;
+/*     background-color: orange; */
+}
+
+header ul li {
+    font-size: 14px;
+    display: inline-block;
+    padding: 10px;
+    margin: 0px
+}
+
+.nametag {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Tooltip container */
+.icon {
+  position: relative;
+  display: inline-block;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+ /* Tooltip text */
+ .icon .tooltip-text {
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 6px;
+
+    /* Position the tooltip text */
+    position: absolute;
+    width: 170px;
+    top: 145%;
+    left: 50%;
+    margin-left: -93px;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.icon:hover .tooltip-text {
+    visibility: visible;
+}
+
+.icon .tooltip-text::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%;  /* At the top of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+}
+
+h1.project-header {
+    font-size: 25px;
+    text-align: center;
+/*     background-color: blanchedalmond; */
+}
+
+section {
+    margin: 30px;
+    display: flex;
+}
+
+div.project {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 300px;
+}
+
+img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+div h3 {
+    text-align: center;
+}

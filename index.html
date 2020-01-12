@@ -1,16 +1,65 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="stylesheets/styles.css">
+
     <title>Alan Liu</title>
-    <link rel="stylesheet" href="styles.css">
   </head>
 
   <body>
-    <section>
-      <figure>
-        <img src=images/test.jpg alt="test">
-        <figcaption>Test</figcaption>
-      </figure>
-  </body>
+    <header>
+      <ul>
+        <li>
+          <h1 class="nametag">Alan Liu</h1>
+        </li>
+        <li>
+          <div class="icon">
+            <i class="zmdi zmdi-email zmdi-hc-2x"></i>
+            <span class="tooltip-text">alanliu.yf@gmail.com</span>
+          </div>
+        </li>
+        <li>
+          <div class="icon">
+            <a href="https://github.com/alanliu61">
+              <i class="zmdi zmdi-github zmdi-hc-2x"></i>
+              <span class="tooltip-text">More Projects</span>
+            </a>
+          </div>
+        </li>
+        <li>
+          <div class="icon">
+            <a href="https://www.linkedin.com/in/alanliu61">
+              <i class="zmdi zmdi-linkedin-box zmdi-hc-2x"></i>
+              <span class="tooltip-text">My Profile</h4>
+            </a>
+          </div>
+        </li>
+        <li>
+          <div class="icon">
+            <i class="zmdi zmdi-file-text zmdi-hc-2x"></i>
+            <span class="tooltip-text">Resume</span>
+          </div>
+        </li>
+      </header>
 
+    <h1 class="project-header">Projects</h1>
+    <section>
+      <div class="project">
+        <img src=images/sudoku.jpg alt="Backtracking Sudoku Solver">
+        <h3>Backtracking Sudoku Solver</h3>
+        <p>Sudoku solver implemented with backtracking algorithm using C</p>
+      </div>
+      <div class="project">
+        <img src=images/sorcery.jpg alt="Sorcery">
+        <h3>Sorcery</h3>
+        <p>Command-line Magic the Gathering style card game implemented in C++. Multiple design pattern were used.</p>
+      </div>
+      <div class="project">
+        <img src=images/2048.jpg alt="2048 Game">
+        <h3>2048 Game</h3>
+        <p>Command-line implementation of the popular 2048 Game using Python</p>
+      </div>
+  </body>
 </html>
