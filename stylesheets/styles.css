@@ -84,6 +84,7 @@ h1.project-header {
 section {
     margin: 30px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 div.project {
