@@ -13,7 +13,6 @@ header {
 header ul {
     text-align: center;
     font-size: 0;
-/*     background-color: orange; */
 }
 
 header ul li {
@@ -76,9 +75,8 @@ a span.tooltip-text::after, span.tooltip-text::after {
 }
 
 h1.project-header {
-    font-size: 25px;
+    font-size: 28px;
     text-align: center;
-/*     background-color: blanchedalmond; */
 }
 
 section {
