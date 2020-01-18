@@ -100,6 +100,13 @@ img {
     box-shadow: gray 0 0 10px;
 }
 
+@media screen and (max-width: 900px) {
+    section {
+        background-color: red;
+        display: block;
+    }
+}
+
 img:hover {
     box-shadow: rgb(90, 90, 90) 0 0 12px;
 }
